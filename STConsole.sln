@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STConsole", "STConsole\STConsole.csproj", "{6786F9D1-CD39-4C72-9DD3-24D42F0C3D21}"
+	ProjectSection(ProjectDependencies) = postProject
+		{430D4D13-EFA1-44AD-84AF-CCA5C39169D3} = {430D4D13-EFA1-44AD-84AF-CCA5C39169D3}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STDriver", "STDriver\STDriver.csproj", "{430D4D13-EFA1-44AD-84AF-CCA5C39169D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6786F9D1-CD39-4C72-9DD3-24D42F0C3D21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6786F9D1-CD39-4C72-9DD3-24D42F0C3D21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6786F9D1-CD39-4C72-9DD3-24D42F0C3D21}.Debug|x64.ActiveCfg = Debug|x64
+		{6786F9D1-CD39-4C72-9DD3-24D42F0C3D21}.Debug|x64.Build.0 = Debug|x64
+		{6786F9D1-CD39-4C72-9DD3-24D42F0C3D21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6786F9D1-CD39-4C72-9DD3-24D42F0C3D21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6786F9D1-CD39-4C72-9DD3-24D42F0C3D21}.Release|x64.ActiveCfg = Release|x64
+		{6786F9D1-CD39-4C72-9DD3-24D42F0C3D21}.Release|x64.Build.0 = Release|x64
+		{430D4D13-EFA1-44AD-84AF-CCA5C39169D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{430D4D13-EFA1-44AD-84AF-CCA5C39169D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{430D4D13-EFA1-44AD-84AF-CCA5C39169D3}.Debug|x64.ActiveCfg = Debug|x64
+		{430D4D13-EFA1-44AD-84AF-CCA5C39169D3}.Debug|x64.Build.0 = Debug|x64
+		{430D4D13-EFA1-44AD-84AF-CCA5C39169D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{430D4D13-EFA1-44AD-84AF-CCA5C39169D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{430D4D13-EFA1-44AD-84AF-CCA5C39169D3}.Release|x64.ActiveCfg = Release|x64
+		{430D4D13-EFA1-44AD-84AF-CCA5C39169D3}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E0B33E4-85AF-4F52-BFDD-0EAFD3A7325C}
+	EndGlobalSection
+EndGlobal
